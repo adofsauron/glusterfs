@@ -4,6 +4,7 @@ HERE=`pwd`
 
 cd glusterfs-10.2
 
+dos2unix ./configure
 chmod +x ./configure
 
 ./configure
