@@ -1,5 +1,3 @@
 #!/bin/bash
 
-yum install -y gcc gcc-g++ make cmake
-
-yum install -y epel-release
+yum install -y gcc gcc-c++ make cmake
