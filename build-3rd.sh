@@ -40,5 +40,17 @@ make install
 cd ..
 rm -rf gperftools-2.5
 
+# userspace-rcu
+rm -rf userspace-rcu
+tar -xzvf userspace-rcu.tar.gz
+cd userspace-rcu
+./bootstrap
+./configure
+make
+make install
+
+cd ..
+rm -rf userspace-rcu
+
 # 
 cd $HERE
