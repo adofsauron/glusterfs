@@ -11,6 +11,8 @@ chmod +x ./configure
 
 make 
 
+make check
+
 make install
 
 make clean
