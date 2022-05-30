@@ -9,7 +9,7 @@ chmod +x ./configure
 
 ./configure
 
-make 
+make -j"$(nproc)"
 
 make check
 
