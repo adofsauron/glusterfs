@@ -2,6 +2,8 @@
 
 HERE=`pwd`
 
+cd trunk
+
 cd glusterfs-10.2
 
 dos2unix ./configure
