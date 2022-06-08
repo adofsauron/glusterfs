@@ -30,6 +30,7 @@
 /* Add new element at the tail of the list. */
 
 /*
+
 static inline
 void cds_list_add_tail_rcu(struct cds_list_head *newp,
                 struct cds_list_head *head)

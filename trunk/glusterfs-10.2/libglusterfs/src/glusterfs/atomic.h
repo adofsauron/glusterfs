@@ -71,11 +71,6 @@
 #endif /* HAVE_(ATOMIC|SYNC)_BUILTINS */
 
 /* Any GF_ATOMIC_SIZE_X macro not yet defined will use the mutex version */
-
-#ifndef GF_ATOMIC_SIZE_0
-#define GF_ATOMIC_SIZE_0 GF_ATOMIC_MUTEX_FIELD_0
-#endif
-
 #ifndef GF_ATOMIC_SIZE_1
 #define GF_ATOMIC_SIZE_1 GF_ATOMIC_MUTEX_FIELD_1
 #endif

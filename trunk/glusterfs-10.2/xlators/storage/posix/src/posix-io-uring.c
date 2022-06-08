@@ -197,7 +197,7 @@ out:
 static void
 posix_prep_readv(struct io_uring_sqe *sqe, struct posix_uring_ctx *ctx)
 {
-    //sqe->flags |= IOSQE_ASYNC;
+    // sqe->flags |= IOSQE_ASYNC;
     io_uring_prep_readv(sqe, ctx->_fd, &ctx->fop.read.iovec, 1,
                         ctx->fop.read.offset);
 }
